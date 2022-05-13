@@ -25,3 +25,6 @@ echo TEST 4
 :: Oczekiwany rezultat: TODO
 :: Zgodno?? rzeczywistego rezultatu z oczekiwanym: TODO
 sorter.exe test_4.txt
+
+
+pause
