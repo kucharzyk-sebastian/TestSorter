@@ -32,4 +32,22 @@ echo Test - plik z wieloma zestawami i wieloma wartosciami
 :: Zgodnosc rzeczywistego rezultatu z oczekiwanym: TODO
 sorter.exe wiele_zestawow_wiele_wartosci.txt
 
+
+echo Test - plik z zakonczeniami linii CRLF
+:: Scenariusz: Uruchom program z parametrem "crlf.txt", zakladajac, ze zawartosc tego pliku to (uwzgledniajac biale znaki):
+:: 1\r\n
+:: 2\r\n
+:: Oczekiwany rezultat: TODO
+:: Zgodnosc rzeczywistego rezultatu z oczekiwanym: TODO
+sorter.exe crlf.txt
+
+echo Test - plik z zakonczeniami linii LF
+:: Scenariusz: Uruchom program z parametrem "lf.txt", zakladajac, ze zawartosc tego pliku to (uwzgledniajac biale znaki):
+:: 1\n
+:: 2\n
+:: Oczekiwany rezultat: TODO
+:: Zgodnosc rzeczywistego rezultatu z oczekiwanym: TODO
+sorter.exe lf.txt
+
+
 pause
