@@ -4,7 +4,8 @@
 1. Open Windows Command Prompt in the root directory of the repository
 2. Execute command:
 ```
-test.bat
+test_niepoprawne_dane.bat
+test_poprawne_dane.bat
 ```
 3. See the output of the tests. It should look similarly to the text below:
 ```
