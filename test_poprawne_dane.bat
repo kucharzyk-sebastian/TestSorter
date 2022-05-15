@@ -1,6 +1,6 @@
 @echo off
 
-echo TEST 1
+echo Test - plik z jednym zestawem i jedna wartoscia
 :: Scenariusz: Uruchom program z parametrem "test_4.txt", zakladajac, ze zawartosc tego pliku to:
 :: 1
 :: Oczekiwany rezultat: TODO
